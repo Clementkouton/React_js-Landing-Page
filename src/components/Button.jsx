@@ -1,8 +1,8 @@
 
-const Button = ({ children, theme, className, href}) => {
+const Button = ({ children, theme, className, href }) => {
     const baseClasse = " text-white hover:text-white";
     const themeClasse = 
-        theme === " primary" ? "bg-p-3 hover:bg-p-2"
+        theme === "primary" ? "bg-p-3 hover:bg-p-2"
         : theme === "secondary" ? "bg-n-7 hover:bg-p-3"
         : "";
 
